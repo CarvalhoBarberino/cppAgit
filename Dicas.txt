@@ -1,0 +1,7 @@
+não use i++ pq eh lento, use ++i
+prefira usar nullptr ao invez de NULL e 0 para ponteiros
+
+Referencia tem que ser inicializada: int x; int &rx = x;
+Pesquisar o que é Doxygen
+
+
