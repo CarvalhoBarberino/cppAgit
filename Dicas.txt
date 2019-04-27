@@ -12,6 +12,16 @@ pesquisar as palavras chaves: "explicit" "friend"
 
 metodos estaticos só podem alterar metodos estaticos pois não possuem o ponteiro para a instancia já que metodos estaticos não são instanciados.
 
+Funções templates só podem ser escritas em arquivos .h pois apenas um desenvolvedor de compilador conseguiu implementar templates em arquivos .cpp. O compilador Comeau foi o unico que consegiu desenvolver um meio para implementar funções templates dentro de arquivos .cpp
+
+Pesquisar o que é fragmentação de memoria
+
+//F9 = Breake Point
+//F5 = Executar em modo Debug
+//F10 = Executar linha a linha
+//F11 = Entrar em uma função
+//Selecionar tudo, apertar Ctrl + /
+
 https://www.cpplovers.com/
 http://www.stroustrup.com/
 https://en.cppreference.com/w/
