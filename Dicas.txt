@@ -4,4 +4,15 @@ prefira usar nullptr ao invez de NULL e 0 para ponteiros
 Referencia tem que ser inicializada: int x; int &rx = x;
 Pesquisar o que é Doxygen
 
+a palavra reservada "mutable" serve para declarar uma variavel que seja mutavel apesar da instrução "const"
 
+variavel global é declarada fora de qualquer par de chaves portanto fora do main.
+
+pesquisar as palavras chaves: "explicit" "friend"
+
+metodos estaticos só podem alterar metodos estaticos pois não possuem o ponteiro para a instancia já que metodos estaticos não são instanciados.
+
+https://www.cpplovers.com/
+http://www.stroustrup.com/
+https://en.cppreference.com/w/
+https://www.dropbox.com/s/6ucv54vkeirtpmt/CPP_11_14_17.pdf?dl=0

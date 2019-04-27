@@ -33,5 +33,7 @@ int Data::comparar(const Data &dt2) const
         return this->m_ano - dt2.m_ano;
     if(this->m_mes != dt2.m_mes)
         return this->m_mes - dt2.m_mes;
-    return this->m_dia - dt2.m_dia;
+    if(this->m_dia != dt2.m_dia)
+        return this->m_dia - dt2.m_dia;
+    return 0;
 }

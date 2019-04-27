@@ -43,29 +43,6 @@ public:
 
     int comparar(/*const Data *this, */ const Data &dt2) const;
 
-    inline bool operator==(const Data&dt2) const{
-        return comparar(dt2) == 0;
-    }
-
-    inline bool operator!=(const Data&dt2) const{
-        return comparar(dt2) != 0;
-    }
-
-    inline bool operator<=(const Data&dt2) const{
-        return comparar(dt2) <= 0;
-    }
-
-    inline bool operator>=(const Data&dt2) const{
-        return comparar(dt2) >= 0;
-    }
-
-    inline bool operator<(const Data&dt2) const{
-        return comparar(dt2) < 0;
-    }
-
-    inline bool operator>(const Data&dt2) const{
-        return comparar(dt2) > 0;
-    }
 };
 
 #endif // DATA_H
