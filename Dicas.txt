@@ -14,6 +14,10 @@ metodos estaticos só podem alterar metodos estaticos pois não possuem o pontei
 
 Funções templates só podem ser escritas em arquivos .h pois apenas um desenvolvedor de compilador conseguiu implementar templates em arquivos .cpp. O compilador Comeau foi o unico que consegiu desenvolver um meio para implementar funções templates dentro de arquivos .cpp
 
+Função "virtual" em C++ equivale a "abstract" no JAVA
+
+Das quatro formas de cast que existem no C++, apenas o dynamic cast é uma boa pratica
+
 Pesquisar o que é fragmentação de memoria
 
 //F9 = Breake Point
